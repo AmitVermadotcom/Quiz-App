@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 245, 245);
+    background-image: linear-gradient(315deg,#b8c6db 0%,#f5f7fa 74%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto",cursive;
+    overflow: hidden;
+    margin: 0;
+
+
+}
+.quiz-container{
+    background-color: seashell;
+    width: 400px;
+    width: 30%;
+    box-shadow:0 0 10px 5px rgba(0,0,0,0.1) ;
+    border-radius: 5px;
+    /* padding-left: 4rem; */
+}
+.quiz-header{
+    padding-left: 1.5rem;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0%;
+    
+}
+h2{
+    padding:2rem 0;
+    text-align: center;
+    margin: 0;
+}
+ul li{
+    padding:0.1rem 1rem;
+    
+    
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    display:block;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    font-family: inherit;
+    padding:1rem;
+    background-color: rgb(100, 94, 185);
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color:rgb(66, 60, 150) ;
+}
